@@ -151,14 +151,14 @@ Sumith Emmadi
 
 To print only email.
 
-bash
+```bash
 ~$ truecallerpy -s [number] --email
 Name : username@email.com
-
+```
 
 Other command's
 
-bash
+```bash
 ~$ truecallerpy -s [number] -r --email
 
 username@email.com
