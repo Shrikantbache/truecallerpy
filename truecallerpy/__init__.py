@@ -165,7 +165,7 @@ def truecallerpy_search_phonenumber(config):
 
         elif jsonInfo["data"] != None and config["json"] == False and config["raw"] == True and config["name"] == False and config["email"] == True:
             try:
-                if "email" in jsonInfo["data"][0]["internetAddresses"][0]["id"]:
+                if "id" in jsonInfo["data"][0]["internetAddresses"][0]["id"]:
                     email = jsonInfo["data"][0]["internetAddresses"][0]["id"]
                 else:
                     email = "Email not found"
@@ -176,7 +176,7 @@ def truecallerpy_search_phonenumber(config):
 
         elif jsonInfo["data"] != None and config["json"] == False and config["raw"] == False and config["name"] == False and config["email"] == True:
             try:
-                if "email" in jsonInfo["data"][0]["internetAddresses"][0]["id"]:
+                if "id" in jsonInfo["data"][0]["internetAddresses"][0]["id"]:
                     email = jsonInfo["data"][0]["internetAddresses"][0]["id"]
                 else:
                     email = "Email not found"
