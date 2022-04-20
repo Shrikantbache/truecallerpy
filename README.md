@@ -149,6 +149,21 @@ Other command's
 Sumith Emmadi
 ```
 
+To print only email.
+
+bash
+~$ truecallerpy -s [number] --email
+Name : username@email.com
+
+
+Other command's
+
+bash
+~$ truecallerpy -s [number] -r --email
+
+username@email.com
+```
+
 #### To get only JSON output
 
 ```bash
