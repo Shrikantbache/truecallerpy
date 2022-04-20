@@ -153,7 +153,7 @@ To print only email.
 
 ```bash
 ~$ truecallerpy -s [number] --email
-Name : username@email.com
+Email : username@email.com
 ```
 
 Other command's
