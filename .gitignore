@@ -9,3 +9,5 @@ dist
 truecallerpy.egg-info
 
 ./bott.json
+
+.\truecallerpy-venv
